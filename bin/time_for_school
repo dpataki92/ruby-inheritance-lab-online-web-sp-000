@@ -17,10 +17,15 @@ some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
+other_knowledge = avi.teach
+the_biggest_knowledge = avi.teach
+
+steve.learn(the_biggest_knowledge)
+
 jim = Student.new
 jim.first_name = "Jim"
 jim.last_name = "Harper"
-jim.learn(some_knowledge)
+jim.learn(other_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 puts "Steve just learned this important knowledge: '#{steve.knowledge.last}' from Avi"
